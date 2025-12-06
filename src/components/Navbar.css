@@ -1,9 +1,6 @@
 .navbar {
-  background-color: #ffff;
-  padding: 1rem 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
 }
