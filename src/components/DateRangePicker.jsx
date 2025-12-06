@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
+import DurationDisplay from './DurationDisplay';
 import "react-datepicker/dist/react-datepicker.css";
 
 export default function DateRangePicker() {
@@ -28,6 +29,9 @@ export default function DateRangePicker() {
           placeholderText="Pilih tanggal akhir"
           className="border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 w-full text-gray-900 bg-white"
         />
+      <div className="mt-4 text-center">
+        <DurationDisplay startDate={startDate} endDate={endDate} />
+      </div>
       </div>
     </div>
   );
