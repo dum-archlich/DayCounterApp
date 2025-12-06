@@ -13,8 +13,9 @@ export default function DateRangePicker() {
         <DatePicker
           selected={startDate}
           onChange={setStartDate}
+          dateFormat="dd/MM/yyyy"
+          placeholderText="Pilih tanggal awal"
           className="border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
-          dateFormat="yyyy-MM-dd"
         />
       </div>
       
@@ -23,8 +24,9 @@ export default function DateRangePicker() {
         <DatePicker
           selected={endDate}
           onChange={setEndDate}
+          dateFormat="dd/MM/yyyy"
+          placeholderText="Pilih tanggal akhir"
           className="border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
-          dateFormat="yyyy-MM-dd"
         />
       </div>
     </div>
