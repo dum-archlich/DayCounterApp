@@ -7,14 +7,8 @@ const Navbar = () => {
         <img src="/svg/icon.svg" alt="Logo" className="h-12 ml-4" />
       </div>
       <div className="flex justify-end items-center w-full px-4">
-        <Link to="/" className="mx-4">
-          Home
-        </Link>
-        <Link to="/about" className="mx-4">
+        <Link to="https://about-dum.vercel.app/" className="mx-4">
           About
-        </Link>
-        <Link to="/contact" className="mx-4">
-          Contact
         </Link>
       </div>
     </nav>
