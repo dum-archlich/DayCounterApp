@@ -1,4 +1,6 @@
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+
 const App = () => {
   return (
     <div className="min-h-screen bg-gray-100">
@@ -11,6 +13,7 @@ const App = () => {
           Use the date picker below to select a range of dates and calculate the
           number of days between them.
         </p>
+        <Home />
       </div>
     </div>
   );
